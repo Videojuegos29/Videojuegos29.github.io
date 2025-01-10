@@ -1,0 +1,142 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #240101;
+    color: #f1f1f1;
+}
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3700b3;
+}
+
+
+.historia{
+    justify-content: center;
+}
+h1{
+ background-color: red;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type:circle;
+    margin-right: 28px;
+ 
+}
+
+.imagen1{
+    width: 600px;
+
+}
+.imagen2{
+    width: 600px;
+}
+nav ul1 {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul1 li {
+    margin: 0 15px;
+}
+nav ul1 li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 20px;
+    padding: 20px;
+}
+h2 {
+    color: #66cec3;
+    justify-content: center;
+}
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: #f1f1f1;
+    
+}
+ table td {
+    border: 1px solid red;
+    padding: 10px;
+    text-align: left;
+    color: #030303;
+    background-color: white;
+}
+table th{
+    border:1px solid red ;
+    padding: 9px;
+    text-align: left;
+
+    background-color: #c70c0c;
+}
+button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #6200ea;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #3700b3;
+    
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
